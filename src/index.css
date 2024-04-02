@@ -1,6 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer base {
+    @font-face {
+        font-family: 'Poppins';
+        src: url('./assests/fonts/Poppins-Regular.ttf') format('truetype');
+        font-weight: 400;
+        font-style: normal;
+    }
+}
 
 :root {
     box-sizing: border-box;
@@ -9,4 +17,15 @@
 ::before,
 ::after {
     box-sizing: inherit;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    max-width: 1120px;
+    background-color: #ffffff;
+    margin: 0 auto;
 }
