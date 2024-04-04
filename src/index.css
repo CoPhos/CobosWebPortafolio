@@ -29,3 +29,13 @@ main {
     background-color: #ffffff;
     margin: 0 auto;
 }
+
+select {
+    padding: 0.1em 0.3em 0.1em 1.3em;
+    background-image: url(/public/world.svg);
+    background-repeat: no-repeat;
+    background-size: 0.8em auto;
+    background-position: 0.4em center;
+    border: 0px;
+    outline: 0px;
+}
