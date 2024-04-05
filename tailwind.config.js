@@ -7,15 +7,23 @@ module.exports = {
             'sans-regular': ['Poppins-Regular', 'sans-serif'],
         },
         fontSize: {
-            'base': [
+            sm: [
+                '0.825rem',
+                {
+                    lineHeight: '1rem',
+                    letterSpacing: '-0.04em',
+                    fontWeight: '400',
+                },
+            ],
+            base: [
                 '1rem',
                 {
                     lineHeight: '1.5rem',
-                    letterSpacing: '-0.04em',
-                    fontWeight: '500',
+                    letterSpacing: '0.04em',
+                    fontWeight: '400',
                 },
             ],
-            'xl': [
+            xl: [
                 '1.5rem',
                 {
                     lineHeight: '2rem',
