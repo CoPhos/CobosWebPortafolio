@@ -9,5 +9,13 @@
     "language": {
         "1": "English",
         "2": "Spanish"
+    },
+    "profile": {
+        "1": "Hello, I'm",
+        "2": "Jorge Cobos",
+        "3": "Backend Developer",
+        "4": "With Full-Stack Experience",
+        "5": "Download CV",
+        "6": "Contac Info"
     }
 }
