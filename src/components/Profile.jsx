@@ -36,7 +36,11 @@ function Profile() {
                     </div>
                 </div>
                 <div className="flex flex-row items-center justify-center gap-4 w-full mt-2">
-                    <a href="https://github.com/CoPhos" target="_blank">
+                    <a
+                        href="http://www.linkedin.com/in/jorgecobos-6978342b7"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <svg
                             width="32"
                             height="32"
@@ -57,7 +61,11 @@ function Profile() {
                             </defs>
                         </svg>
                     </a>
-                    <a href="https://github.com/CoPhos" target="_blank">
+                    <a
+                        href="https://github.com/CoPhos"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <svg
                             width="32"
                             height="32"
