@@ -2,13 +2,15 @@ import React, { Fragment } from 'react'
 import './index.css'
 
 import Navbar from './components/Navbar'
-import Content from './components/Content'
+import Profile from './components/Profile'
 
 export default function App() {
     return (
         <Fragment>
-            <Navbar/>
-            <Content/>
+            <Navbar />
+            <main>
+                <Profile />
+            </main>
         </Fragment>
     )
 }
