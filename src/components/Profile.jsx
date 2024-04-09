@@ -6,7 +6,7 @@ function Profile() {
     return (
         <section
             id="profile"
-            className="flex flex-col items-center justify-center gap-14 h-[700px] m-12 md:flex-row"
+            className="flex flex-col items-center justify-center gap-14 h-[700px] my-[100px] md:flex-row"
         >
             <img
                 src="https://static1-es.millenium.gg/articles/0/32/83/0/@/152380-crownshot-lol-article_cover_bd-1.jpg"
@@ -15,7 +15,7 @@ function Profile() {
 
             <div className="flex flex-col items-center justify-start gap-2">
                 <p className="text-base font-semibold text-[#555555]">
-                    {tranlation('profile.1')}
+                    {tranlation('profile.1')} &#128075;
                 </p>
                 <p className="text-4xl font-bold">{tranlation('profile.2')}</p>
                 <p className="text-2xl font-bold text-[#555555]">
