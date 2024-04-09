@@ -10,10 +10,10 @@ function Navbar() {
     }
 
     return (
-        <div className="w-full  h-[130px] flex flex-row items-center justify-around sticky top-0 bg-white z-10">
-            <div className="text-3xl">{tranlation('navbar.1')}</div>
+        <div className="w-full  h-[100px] flex flex-row items-center justify-around sticky top-0 bg-[#3a4443] z-10">
+            <div className="text-3xl text-white">{tranlation('navbar.1')}</div>
             <div
-                className={`transition-all duration-300 max-[1059px]:top-[110px] max-[1059px]:absolute max-[1059px]:w-full max-[1059px]:shadow-inner max-[1059px]:bg-white z-10 py-5
+                className={`transition-all duration-300 max-[1059px]:top-[100px] max-[1059px]:absolute max-[1059px]:w-full max-[1059px]:shadow-inner max-[1059px]:bg-[#3a4443] z-10 py-5
                 ${
                     menuOpened
                         ? 'max-[1059px]:left-0'
@@ -27,7 +27,7 @@ function Navbar() {
                         <li>
                             <a
                                 href=""
-                                className="text-xl hover:border-b-2 hover:border-[#b5b5b5] hover:text-[#b5b5b5] transition-colors duration-300 pb-2"
+                                className="text-xl text-white hover:border-b-2 hover:border-[#b5b5b5] hover:text-[#b5b5b5] transition-colors duration-300 pb-2"
                             >
                                 {tranlation('navbar.2')}
                             </a>
@@ -35,7 +35,7 @@ function Navbar() {
                         <li>
                             <a
                                 href=""
-                                className="text-xl hover:border-b-2 hover:border-[#b5b5b5] hover:text-[#b5b5b5] transition-colors duration-300 pb-2"
+                                className="text-xl text-white hover:border-b-2 hover:border-[#b5b5b5] hover:text-[#b5b5b5] transition-colors duration-300 pb-2"
                             >
                                 {tranlation('navbar.3')}
                             </a>
@@ -43,7 +43,7 @@ function Navbar() {
                         <li>
                             <a
                                 href=""
-                                className="text-xl hover:border-b-2 hover:border-[#b5b5b5] hover:text-[#b5b5b5] transition-colors duration-300 pb-2"
+                                className="text-xl text-white hover:border-b-2 hover:border-[#b5b5b5] hover:text-[#b5b5b5] transition-colors duration-300 pb-2"
                             >
                                 {tranlation('navbar.4')}
                             </a>
@@ -51,7 +51,7 @@ function Navbar() {
                         <li>
                             <a
                                 href=""
-                                className="text-xl hover:border-b-2 hover:border-[#b5b5b5] hover:text-[#b5b5b5] transition-colors duration-300 pb-2"
+                                className="text-xl text-white hover:border-b-2 hover:border-[#b5b5b5] hover:text-[#b5b5b5] transition-colors duration-300 pb-2"
                             >
                                 {tranlation('navbar.5')}
                             </a>
@@ -80,7 +80,7 @@ function Navbar() {
                         >
                             <path
                                 d="M18.75 1.25L1.25 18.75M1.25004 1.25L18.75 18.75"
-                                stroke="black"
+                                stroke="white"
                                 strokeWidth="2"
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
@@ -96,7 +96,7 @@ function Navbar() {
                         >
                             <path
                                 d="M0 0V2H24V0H0ZM0 7V9H24V7H13H0ZM0 14V16H24V14H0Z"
-                                fill="black"
+                                fill="white"
                             />
                         </svg>
                     )}
