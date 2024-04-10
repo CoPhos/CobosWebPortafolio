@@ -7,6 +7,11 @@ function About() {
       <section className="w-full min-h-[520px] bg-[#ffbb6e] py-[85px]">
           <div className="max-w-[1120px] h-full mx-auto flex flex-col items-center justify-start gap-6 px-8 min-[900px]:px-0">
               <div className="w-[42px] h-[8px] bg-white"></div>
+              <div>
+                  <p className="text-4xl text-center">
+                      {tranlation('about.0')}
+                  </p>
+              </div>
               <div className="flex flex-col min-[900px]:flex-row items-center justify-between gap-3 min-[900px]:gap-0 max-w-[830px] w-full">
                   <div className="flex flex-col items-center justify-center min-[678px]:max-w-[395px] max-w-[300px] min-h-[168px] gap-1 min-[678px]:p-[24px] p-[12px] border border-[#353535] rounded-[25px] flex-1 w-full">
                       <svg
@@ -40,9 +45,15 @@ function About() {
                               </clipPath>
                           </defs>
                       </svg>
-                      <p className="text-center">{tranlation('about.1')}</p>
-                      <p className="text-center">{tranlation('about.2')}</p>
-                      <p className="text-center">{tranlation('about.3')}</p>
+                      <p className="text-center text-h3 font-bold">
+                          {tranlation('about.1')}
+                      </p>
+                      <p className="text-center text-[#313131]">
+                          {tranlation('about.2')}
+                      </p>
+                      <p className="text-center text-[#313131]">
+                          {tranlation('about.3')}
+                      </p>
                   </div>
                   <div className="flex flex-col items-center justify-center min-[678px]:max-w-[395px] max-w-[300px] min-h-[168px] gap-1 min-[678px]:p-[24px] p-[12px] border border-[#353535] rounded-[25px] flex-1 w-full">
                       <svg
@@ -57,14 +68,18 @@ function About() {
                               fill="black"
                           />
                       </svg>
-                      <p className="text-center">{tranlation('about.4')}</p>
-                      <p className="text-center">{tranlation('about.5')}</p>
+                      <p className="text-center text-h3 font-bold">
+                          {tranlation('about.4')}
+                      </p>
+                      <p className="text-center text-[#313131]">
+                          {tranlation('about.5')}
+                      </p>
                   </div>
               </div>
-              <div >
+              <div>
                   {/* <div className='flex flex-row items-center justify-start gap-4'> */}
                   {/* <p className='text-4xl'>👨‍💻</p> */}
-                  <p className="max-w-[625px]">
+                  <p className="max-w-[625px] text-[#313131]">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Hic quis reprehenderit et laborum, rem, dolore eum quod
                       voluptate exercitationem nobis, nihil esse debitis maxime
