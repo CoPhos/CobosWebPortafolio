@@ -3,6 +3,8 @@ import './index.css'
 
 import Navbar from './components/Navbar'
 import Profile from './components/Profile'
+import About from './components/About';
+import Technologies from './components/Technologies';
 
 export default function App() {
     return (
@@ -10,6 +12,8 @@ export default function App() {
             <Navbar />
             <main>
                 <Profile />
+                <About />
+                <Technologies />
             </main>
         </Fragment>
     )

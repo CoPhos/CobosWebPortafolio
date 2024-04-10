@@ -25,5 +25,8 @@
         "3": "Desarrollo Full-Stack",
         "4": "Educación",
         "5": "Lic. Ingeniería en Sistemas Computacionales"
+    },
+    "technologies": {
+        "1": "Tecnologías Que Uso."
     }
 }

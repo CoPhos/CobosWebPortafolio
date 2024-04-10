@@ -25,5 +25,8 @@
         "3": "Full-Stack Development",
         "4": "Education",
         "5": "B.Sc. Bachelors Degree"
+    },
+    "technologies": {
+        "1": "Technologies I Use"
     }
 }

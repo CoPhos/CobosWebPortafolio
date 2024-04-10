@@ -23,6 +23,14 @@ module.exports = {
                     fontWeight: '400',
                 },
             ],
+            h3: [
+                '1.2rem',
+                {
+                    lineHeight: '1.5rem',
+                    letterSpacing: '0.04em',
+                    fontWeight: '400',
+                },
+            ],
             xl: [
                 '1.5rem',
                 {
