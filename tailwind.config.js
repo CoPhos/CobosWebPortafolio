@@ -32,7 +32,7 @@ module.exports = {
                 },
             ],
             xl: [
-                '1.5rem',
+                '1.2rem',
                 {
                     lineHeight: '2rem',
                     letterSpacing: '-0.01em',
