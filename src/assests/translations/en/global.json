@@ -2,9 +2,10 @@
     "navbar": {
         "1": "Jorge Cobos",
         "2": "About",
-        "3": "Experience",
+        "3": "Technologies",
         "4": "Projects",
-        "5": "Contact"
+        "5": "Experience",
+        "6": "Contact"
     },
     "language": {
         "1": "English",

@@ -10,10 +10,10 @@ function Navbar() {
     }
 
     return (
-        <div className="w-full  h-[100px] flex flex-row items-center justify-around sticky top-0 bg-[#3a4443] z-10">
+        <div className="w-full  h-[100px] flex flex-row items-center justify-around sticky top-0 bg-[#3a4443] z-10 shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
             <div className="text-3xl text-white">{tranlation('navbar.1')}</div>
             <div
-                className={`transition-all duration-300 max-[1059px]:top-[100px] max-[1059px]:absolute max-[1059px]:w-full max-[1059px]:shadow-inner max-[1059px]:bg-[#3a4443] z-10 py-5
+                className={`transition-all duration-300 max-[1059px]:top-[100px] max-[1059px]:absolute max-[1059px]:w-full max-[1059px]:shadow-inner max-[1059px]:bg-[#3a4443] z-10 py-5 
                 ${
                     menuOpened
                         ? 'max-[1059px]:left-0'
@@ -21,7 +21,7 @@ function Navbar() {
                 }`}
             >
                 <div
-                    className={`flex flex-row items-center justify-start gap-1 max-[1059px]:flex-col`}
+                    className={`flex flex-row items-center justify-start gap-1 max-[1059px]:flex-col `}
                 >
                     <ul className="flex flex-row items-center justify-between gap-6 max-[1059px]:flex-col">
                         <li>
@@ -54,6 +54,14 @@ function Navbar() {
                                 className="text-xl text-white hover:border-b-2 hover:border-[#b5b5b5] hover:text-[#b5b5b5] transition-colors duration-300 pb-2"
                             >
                                 {tranlation('navbar.5')}
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href=""
+                                className="text-xl text-white hover:border-b-2 hover:border-[#b5b5b5] hover:text-[#b5b5b5] transition-colors duration-300 pb-2"
+                            >
+                                {tranlation('navbar.6')}
                             </a>
                         </li>
                     </ul>
