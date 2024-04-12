@@ -49,8 +49,8 @@ function Projects() {
                                     <path
                                         d="M0.5 8.5L8 1M8 1H3M8 1V6"
                                         stroke="black"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
                                     />
                                 </svg>
                             </a>
@@ -67,8 +67,8 @@ function Projects() {
                                     <path
                                         d="M0.5 8.5L8 1M8 1H3M8 1V6"
                                         stroke="black"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
                                     />
                                 </svg>
                             </a>
