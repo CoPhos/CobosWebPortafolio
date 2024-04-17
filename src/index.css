@@ -89,3 +89,56 @@ select {
         transform: translate(calc(-50% - 16px));
     }
 }
+
+.to-fade-in {
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range-start: 150px;
+    animation-range-end: 300px;
+    scale: 0.8;
+    opacity: 0;
+}
+
+@media (min-width: 700px) {
+    .to-fade-in {
+        animation-range-start: 250px;
+        animation-range-end: 380px;
+    }
+}
+
+@keyframes fade-in {
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+.to-transition-plus-x-onload {
+    animation: transition-initial-x 0.75s forwards;
+    transform: translateX(-300px);
+    scale: 0.8;
+    opacity: 0;
+}
+
+.to-transition-minus-x-onload {
+    animation: transition-initial-x 0.75s forwards;
+    transform: translateX(+300px);
+    scale: 0.8;
+    opacity: 0;
+}
+
+.to-transition-plus-x {
+    animation: transition-initial-x linear forwards;
+    animation-timeline: view();
+    animation-range-start: 150px;
+    animation-range-end: 300px;
+    transform: translateX(-200px);
+}
+
+@keyframes transition-initial-x {
+    to {
+        transform: translateX(0);
+        scale: 1;
+        opacity: 1;
+    }
+}

@@ -6,14 +6,14 @@ function Profile() {
     return (
         <section
             id="profile"
-            className="flex flex-col items-center justify-center gap-14 h-[700px] my-[100px] md:flex-row"
+            className="flex flex-col items-center justify-center gap-14 h-[700px]  my-[24px] md:my-[100px] md:flex-row"
         >
             <img
                 src="https://static1-es.millenium.gg/articles/0/32/83/0/@/152380-crownshot-lol-article_cover_bd-1.jpg"
-                className="object-cover object-center rounded-full w-[250px] h-[250px]"
+                className="to-transition-plus-x-onload object-cover object-center rounded-full w-[250px] h-[250px]"
             />
 
-            <div className="flex flex-col items-center justify-start gap-2">
+            <div className="to-transition-minus-x-onload flex flex-col items-center justify-start gap-2">
                 <p className="text-base font-semibold text-[#555555]">
                     {tranlation('profile.1')} &#128075;
                 </p>

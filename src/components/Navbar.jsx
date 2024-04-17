@@ -10,7 +10,7 @@ function Navbar() {
     }
 
     return (
-        <div className="w-full  h-[100px] flex flex-row items-center justify-around sticky top-0 bg-[#3a4443] z-10 shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+        <nav className="w-full  h-[100px] flex flex-row items-center justify-around sticky top-0 bg-[#3a4443] z-10 shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
             <div className="text-3xl text-white">{tranlation('navbar.1')}</div>
             <div
                 className={`transition-all duration-300 max-[1059px]:top-[100px] max-[1059px]:absolute max-[1059px]:w-full max-[1059px]:shadow-inner max-[1059px]:bg-[#3a4443] z-10 py-5 
@@ -110,7 +110,7 @@ function Navbar() {
                     )}
                 </button>
             </div>
-        </div>
+        </nav>
     )
 }
 

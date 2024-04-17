@@ -16,28 +16,32 @@ function Contact(props) {
     }
 
     return (
-        <section className="bg-[#3a4443] w-full pb-[144px] my-[150px] px-5">
-            <div className="w-full flex flex-col items-center justify-center gap-6 bg-[#3a4443]">
-                <svg
-                    preserveAspectRatio="none"
-                    viewBox="0 0 100 102"
-                    height="75"
-                    width="100%"
-                    version="1.1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="svgcolor-light"
-                >
-                    <path
-                        d="M0 0 L50 100 L100 0 Z"
-                        fill="#eef1ef"
-                        stroke="white"
-                    ></path>
-                </svg>
-                <div className="w-[42px] h-[8px] bg-white mt-[72px]"></div>
-                <div>
-                    <p className="text-4xl text-center text-white">Contact</p>
+        <section className="bg-[#3a4443] w-full pb-[116px] mt-[150px]">
+            <svg
+                preserveAspectRatio="none"
+                viewBox="0 0 100 102"
+                height="75"
+                width="100%"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                className="svgcolor-light"
+            >
+                <path
+                    d="M0 0 L50 100 L100 0 Z"
+                    fill="#eef1ef"
+                    stroke="#eef1ef"
+                ></path>
+            </svg>
+            <div className="w-full flex flex-col items-center justify-center gap-6 bg-[#3a4443] px-5">
+                <div className="to-fade-in flex flex-col items-center justify-center gap-2 mt-24">
+                    <div>
+                        <p className="text-4xl text-center text-white">
+                            Contact
+                        </p>
+                    </div>
+                    <div className="to-transition-plus-x w-[84px] h-[4px] bg-white"></div>
                 </div>
-                <div className="max-w-[750px] w-full">
+                <div className="to-fade-in max-w-[750px] w-full">
                     <p className="text-white py-[24px] text-2xl">Contact Me!</p>
                     <form
                         onSubmit={handleSendEmail}

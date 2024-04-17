@@ -43,13 +43,13 @@ function Experience() {
     return (
         <section className=" py-[72px] w-full my-[150px]">
             <div className="w-full flex flex-col items-center justify-center gap-6">
-                <div className="w-[42px] h-[8px] bg-[#3a4443]"></div>
-                <div>
-                    <p className="text-4xl text-center">
-                        Experience
-                    </p>
+                <div className="to-fade-in flex flex-col items-center justify-center gap-2">
+                    <div>
+                        <p className="text-4xl text-center">Experience</p>
+                    </div>
+                    <div className="to-transition-plus-x w-[84px] h-[4px] bg-[#3a4443]"></div>
                 </div>
-                <div className="flex flex-row items-center justify-between gap-8 max-w-[1200px] mx-auto px-4">
+                <div className="to-fade-in flex flex-row items-center justify-between gap-8 max-w-[1200px] mx-auto px-4">
                     <div className="flex flex-col items-start justify-start gap-6">
                         <Card></Card>
                         <Card></Card>

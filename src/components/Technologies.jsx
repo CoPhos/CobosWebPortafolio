@@ -31,13 +31,15 @@ function Technologies() {
     }, [])
 
     return (
-        <section className="flex items-center justify-center h-[350px] py-[72px] w-full my-[150px]">
-            <div className="w-full max-w-[800px] flex flex-col items-center justify-center gap-6">
-                <div className="w-[42px] h-[8px] bg-[#3a4443]"></div>
-                <div>
-                    <p className="text-4xl text-center">
-                        {tranlation('technologies.1')}
-                    </p>
+        <section className="flex items-center justify-center h-[350px] py-[72px] w-full my-[200px]">
+            <div className=" to-fade-in w-full max-w-[800px] flex flex-col items-center justify-center gap-6">
+                <div className="to-fade-in flex flex-col items-center justify-center gap-2">
+                    <div>
+                        <p className="text-4xl text-center">
+                            {tranlation('technologies.1')}
+                        </p>
+                    </div>
+                    <div className="to-transition-plus-x w-[84px] h-[4px] bg-[#3a4443]"></div>
                 </div>
                 <div
                     className="scroller w-full"

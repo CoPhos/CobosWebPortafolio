@@ -16,11 +16,13 @@ function Projects() {
     return (
         <section className="bg-[#3a4443] py-[180px] text-white ">
             <div className="flex flex-col items-center justify-center gap-6">
-                <div className="w-[42px] h-[8px] bg-white"></div>
-                <div>
-                    <p className="text-4xl text-center">Projects</p>
+                <div className="to-fade-in flex flex-col items-center justify-center gap-2">
+                    <div>
+                        <p className="text-4xl text-center">Projects</p>
+                    </div>
+                    <div className="to-transition-plus-x w-[84px] h-[4px] bg-white"></div>
                 </div>
-                <div className="flex flex-col items-center justify-center gap-6 max-w-[1200px] w-full mx-auto px-3 min-[1000px]:px-0 min-[1000px]:flex-row ">
+                <div className="to-fade-in flex flex-col items-center justify-center gap-6 max-w-[1200px] w-full mx-auto px-3 min-[1000px]:px-0 min-[1000px]:flex-row ">
                     <img
                         src="https://npwelch.com/wp-content/uploads/2022/06/video-placeholder-brain-bites.png"
                         className="object-cover object-center w-full h-auto max-w-[580px] max-h-[330px]"
@@ -85,7 +87,7 @@ function Projects() {
                 keyBoardControl={true}
                 customTransition="transform 300ms ease-in-out"
                 transitionDuration={500}
-                containerClass="carousel-container mt-[56px] max-w-[1600px] mx-auto"
+                containerClass="to-fade-in carousel-container mt-[56px] max-w-[1600px] mx-auto"
                 itemClass="px-[8px]"
             >
                 <img
